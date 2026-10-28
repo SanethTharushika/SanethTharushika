@@ -12,6 +12,33 @@
 @keyframes fall{0%{transform:translateY(-40px);opacity:0}10%{opacity:.85}85%{opacity:.85}100%{transform:translateY(220px);opacity:0}}
 .i0{animation:fall 4.0s linear 0.0s infinite}.i1{animation:fall 5.7s linear -1.1s infinite}.i2{animation:fall 7.4s linear -2.2s infinite}.i3{animation:fall 5.6s linear -3.3s infinite}.i4{animation:fall 7.3s linear -4.4s infinite}.i5{animation:fall 5.5s linear -5.5s infinite}.i6{animation:fall 7.2s linear -0.6s infinite}.i7{animation:fall 5.4s linear -1.7s infinite}.i8{animation:fall 7.1s linear -2.8s infinite}.i9{animation:fall 5.3s linear -3.9s infinite}.i10{animation:fall 7.0s linear -5.0s infinite}.i11{animation:fall 5.2s linear -0.1s infinite}.i12{animation:fall 6.9s linear -1.2s infinite}.i13{animation:fall 5.1s linear -2.3s infinite}.i14{animation:fall 6.8s linear -3.4s infinite}.i15{animation:fall 5.0s linear -4.5s infinite}.i16{animation:fall 6.7s linear -5.6s infinite}.i17{animation:fall 4.9s linear -0.7s infinite}
 text{font-family:'Segoe UI',Arial,sans-serif}
+@keyframes assemble{
+0%{transform:translate(var(--sx),var(--sy)) rotate(var(--sr));opacity:0}
+10%{opacity:1}
+30%{transform:translate(0,0) rotate(0deg);opacity:1}
+72%{transform:translate(0,0) rotate(0deg);opacity:1}
+92%{transform:translate(var(--ex),var(--ey)) rotate(var(--er));opacity:0}
+100%{transform:translate(var(--sx),var(--sy)) rotate(var(--sr));opacity:0}}
+.L{font-family:'Courier New',Consolas,monospace;font-weight:700;font-size:50px;text-anchor:middle;opacity:0;transform-box:fill-box;transform-origin:center;animation:assemble 12s ease-in-out infinite both}
+.N{font-size:30px;font-weight:700;fill:#fff;text-anchor:middle}
+.l0{--sx:-185px;--sy:44px;--ex:92px;--ey:-98px;--sr:83deg;--er:12deg;animation-delay:0.30s}
+.l1{--sx:505px;--sy:11px;--ex:305px;--ey:-3px;--sr:49deg;--er:114deg;animation-delay:0.22s}
+.l2{--sx:112px;--sy:2px;--ex:423px;--ey:-129px;--sr:66deg;--er:-12deg;animation-delay:0.83s}
+.l3{--sx:497px;--sy:-115px;--ex:214px;--ey:45px;--sr:68deg;--er:52deg;animation-delay:0.52s}
+.l5{--sx:535px;--sy:42px;--ex:17px;--ey:-73px;--sr:121deg;--er:-60deg;animation-delay:0.14s}
+.l6{--sx:-86px;--sy:-54px;--ex:-88px;--ey:47px;--sr:21deg;--er:83deg;animation-delay:0.79s}
+.l7{--sx:-346px;--sy:-85px;--ex:136px;--ey:-38px;--sr:-28deg;--er:-111deg;animation-delay:0.82s}
+.l8{--sx:-381px;--sy:-67px;--ex:-103px;--ey:-7px;--sr:153deg;--er:5deg;animation-delay:0.15s}
+.l9{--sx:-75px;--sy:-83px;--ex:-115px;--ey:-55px;--sr:-60deg;--er:11deg;animation-delay:0.55s}
+.l11{--sx:-303px;--sy:41px;--ex:-87px;--ey:33px;--sr:49deg;--er:48deg;animation-delay:0.46s}
+.l12{--sx:-73px;--sy:-2px;--ex:344px;--ey:-61px;--sr:75deg;--er:-90deg;animation-delay:0.53s}
+.l13{--sx:-252px;--sy:-74px;--ex:-213px;--ey:19px;--sr:136deg;--er:-140deg;animation-delay:0.74s}
+.l14{--sx:-545px;--sy:-59px;--ex:-472px;--ey:-124px;--sr:179deg;--er:-101deg;animation-delay:0.57s}
+.l15{--sx:-512px;--sy:-49px;--ex:-81px;--ey:-112px;--sr:152deg;--er:138deg;animation-delay:0.80s}
+.l16{--sx:168px;--sy:42px;--ex:49px;--ey:-85px;--sr:-176deg;--er:-91deg;animation-delay:0.07s}
+.l17{--sx:-711px;--sy:-17px;--ex:-490px;--ey:8px;--sr:-4deg;--er:68deg;animation-delay:0.21s}
+.l18{--sx:103px;--sy:-93px;--ex:-385px;--ey:39px;--sr:-137deg;--er:-4deg;animation-delay:0s}
+.l19{--sx:102px;--sy:-13px;--ex:111px;--ey:-136px;--sr:144deg;--er:-112deg;animation-delay:0.87s}
 </style>
 <rect width="1000" height="220" fill="url(#g)"/>
 <g class="i0"><use href="#siPhp" transform="translate(30,0) scale(0.99)"/></g>
@@ -32,6 +59,23 @@ text{font-family:'Segoe UI',Arial,sans-serif}
 <g class="i15"><use href="#siJavascript" transform="translate(833,0) scale(1.45)"/></g>
 <g class="i16"><use href="#siHtml5" transform="translate(886,0) scale(1.18)"/></g>
 <g class="i17"><use href="#siFlutter" transform="translate(940,0) scale(1.81)"/></g>
-<text x="50%" y="52%" text-anchor="middle" font-size="58" font-weight="700" fill="#fff">Saneth Siriwardhana</text>
-<text x="50%" y="75%" text-anchor="middle" font-size="22" fill="#F7B93E">Full-Stack Developer</text>
+<text class="N" x="500" y="55">Saneth Siriwardhana</text>
+<text class="L l0" x="205.5" y="150" fill="#F7B93E">F</text>
+<text class="L l1" x="236.5" y="150" fill="#61DAFB">u</text>
+<text class="L l2" x="267.5" y="150" fill="#ffffff">l</text>
+<text class="L l3" x="298.5" y="150" fill="#5FA04E">l</text>
+<text class="L l5" x="360.5" y="150" fill="#F7B93E">S</text>
+<text class="L l6" x="391.5" y="150" fill="#61DAFB">t</text>
+<text class="L l7" x="422.5" y="150" fill="#ffffff">a</text>
+<text class="L l8" x="453.5" y="150" fill="#5FA04E">c</text>
+<text class="L l9" x="484.5" y="150" fill="#F7DF1E">k</text>
+<text class="L l11" x="546.5" y="150" fill="#61DAFB">D</text>
+<text class="L l12" x="577.5" y="150" fill="#ffffff">e</text>
+<text class="L l13" x="608.5" y="150" fill="#5FA04E">v</text>
+<text class="L l14" x="639.5" y="150" fill="#F7DF1E">e</text>
+<text class="L l15" x="670.5" y="150" fill="#F7B93E">l</text>
+<text class="L l16" x="701.5" y="150" fill="#61DAFB">o</text>
+<text class="L l17" x="732.5" y="150" fill="#ffffff">p</text>
+<text class="L l18" x="763.5" y="150" fill="#5FA04E">e</text>
+<text class="L l19" x="794.5" y="150" fill="#F7DF1E">r</text>
 </svg>
